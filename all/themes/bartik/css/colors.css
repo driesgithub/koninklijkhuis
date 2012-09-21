@@ -1,0 +1,186 @@
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+#page {
+	/*background-color: yellow;*/
+	padding-top:30px;
+	background-image: linear-gradient(bottom, rgb(250,250,250) 14%, rgb(240,240,240) 57%, rgb(230,230,230) 79%);
+	background-image: -o-linear-gradient(bottom, rgb(250,250,250) 14%, rgb(240,240,240) 57%, rgb(230,230,230) 79%);
+	background-image: -moz-linear-gradient(bottom, rgb(250,250,250) 14%, rgb(240,240,240) 57%, rgb(230,230,230) 79%);
+	background-image: -webkit-linear-gradient(bottom, rgb(250,250,250) 14%, rgb(240,240,240) 57%, rgb(230,230,230) 79%);
+	background-image: -ms-linear-gradient(bottom, rgb(250,250,250) 14%, rgb(240,240,240) 57%, rgb(230,230,230) 79%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.14, rgb(250,250,250)),
+		color-stop(0.57, rgb(240,240,240)),
+		color-stop(0.79, rgb(230,230,230))
+	);
+  /*background-color: #48a9e4;
+  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
+  background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+  background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);*/
+}
+#header {
+	background-image:url('../images/header.png');
+	background-repeat:no-repeat;
+	padding:0px;
+	margin:0px;
+	height:122px;
+	width:960px;
+	margin:0 auto;
+	background-color:white;
+}
+#main {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+#main-wrapper {
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+a {
+  color: #0071B3;
+}
+a:hover,
+a:focus {
+  color: #018fe2;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+#page-wrapper {
+	background-color:rgb(250,250,250);
+}
+#footer-wrapper {
+	/*background-color:#27395e;*/
+	background-image: linear-gradient(bottom, rgb(10,23,51) 14%, rgb(29,46,82) 57%, rgb(39,57,94) 79%);
+	background-image: -o-linear-gradient(bottom, rgb(10,23,51) 14%, rgb(29,46,82) 57%, rgb(39,57,94) 79%);
+	background-image: -moz-linear-gradient(bottom, rgb(10,23,51) 14%, rgb(29,46,82) 57%, rgb(39,57,94) 79%);
+	background-image: -webkit-linear-gradient(bottom, rgb(10,23,51) 14%, rgb(29,46,82) 57%, rgb(39,57,94) 79%);
+	background-image: -ms-linear-gradient(bottom, rgb(10,23,51) 14%, rgb(29,46,82) 57%, rgb(39,57,94) 79%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.14, rgb(10,23,51)),
+		color-stop(0.57, rgb(29,46,82)),
+		color-stop(0.79, rgb(39,57,94))
+	);
+}
+#footer-wrapper {
+	padding-top:0px;
+	width:960px;
+	height:110px;
+	margin:0 auto;
+}
+#footer {
+	background-image: url('../images/footer-ornament.png');
+	background-repeat:no-repeat;
+	margin:0 auto;
+	position: relative;
+	z-index:5;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+
+#field-content, a {
+	color:#154273;
+	text-decoration:underline;
+}
+.field-content, p {
+	padding-bottom:0px;
+}
+
+a:hover, a:focus {
+	color: #154273;
+	text-decoration:underline;
+}
+
+#page-title {
+	color:#D8761E;
+}
+
+.views-field.views-field-created {
+	color:#7a7b7d;
+	padding-bottom:5px;
+}
+
+.pager-next a {
+	padding:3px 10px 3px 10px;
+	background-color:#27395e;
+	color:white;
+	float:right;
+	margin-right:20px;
+	border-radius: 15px;
+}
+.pager-next a:hover {
+	padding:3px 10px 3px 10px;
+	background-color:#50658f;
+	color:white;
+	float:right;
+	margin-right:20px;
+	border-radius: 15px;
+	text-decoration:none;
+}
+.pager-previous a {
+	padding:3px 10px 3px 10px;
+	background-color:#27395e;
+	color:white;
+	float:left;
+	margin-left:-25px;
+	border-radius: 15px;
+}
+
+.pager-previous a:hover {
+	padding:3px 10px 3px 10px;
+	background-color:#50658f;
+	color:white;
+	float:left;
+	margin-left:-25px;
+	border-radius: 15px;
+	text-decoration:none;
+}
+.container-inline{
+	float:left;
+	
+}
